@@ -15,7 +15,16 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- fade -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
+
+
 
 <body>
 
@@ -43,9 +52,9 @@
 
     <!-- home section starts  -->
 
-    <section class="home" id="home">
+    <section class="home" id="home" style="background-image:'image\blog-3.jpg' ">
 
-        <div class="image">
+        <div class="image"data-aos="fade-left">
             <img src="image/home-img.svg" alt="">
         </div>
 
@@ -63,25 +72,25 @@
 
     <section class="icons-container">
 
-        <div class="icons">
+        <div class="icons"data-aos="fade-right">
             <i class="fas fa-user-md"></i>
             <h3>20+</h3>
             <p>doctors at work</p>
         </div>
 
-        <div class="icons">
+        <div class="icons" data-aos="fade-up">
             <i class="fas fa-users"></i>
             <h3>1200+</h3>
             <p>satisfied patients</p>
         </div>
 
-        <div class="icons">
+        <div class="icons" data-aos="fade-left">
             <i class="fas fa-procedures"></i>
             <h3>30+</h3>
             <p>bed facility</p>
         </div>
 
-        <div class="icons">
+        <div class="icons"data-aos="fade-up">
             <i class="fas fa-hospital"></i>
             <h3>7+</h3>
             <p>special doctors</p>
@@ -97,74 +106,67 @@
 
         <h1 class="heading"> our <span>services</span> </h1>
 
-        <div class="box-container">
+        <div class="box-container px-4 py-5 flex-auto">
 
-            <div class="box">
-                <i class="fas fa-procedures"></i>
+            <div class="box "data-aos="fade-up">
+                <i class="fas fa-procedures " ></i>
                 <h3>long-term hospitalization</h3>
                 <p>we have more than 30  bed for long term  services </p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+                <!-- <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a> -->
             </div>
 
-            <div class="box">
-                <i class="fas fa-ambulance"></i>
+            <div class="box" data-aos="fade-up" >
+                <i class="fas fa-ambulance"></i> 
                 <h3>emergency room services</h3>
                 <p>our specialized and general doctors are 24/7 ready for any emrgency services</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-center">
                 <i class="fas fa-user-md"></i>
                 <h3>specialty surgical services</h3>
                 <p>we give surgical services from small wound upto complex surgery</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-top">
                 <i class="fas fa-microscope"></i>
                 <h3>laboratory services</h3>
                 <p>modern and advanced diagnostic laboratorical tools .</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box"data-aos="fade-up">
                 <i class="fas fa-head-side-virus"></i>
                 <h3>mental health and drug treatment</h3>
                 <p>there are lots of psychatrist to serve you and consult about your mental health .</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box"data-aos="fade-up">
                 <i class="fas fa-child"></i>
                 <h3>pediatric specialty care</h3>
                 <p>doppler ultrasound and encocardiograohy.</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box"data-aos="fade-up">
                 <i class="fas fa-utensils"></i>
                 <h3>nutritional counseling</h3>
                 <p>we consult about your healthy balanced diet .</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box"data-aos="fade-left">
                 <i class="fas fa-head-side-cough"></i>
                 <h3>neurological treatment</h3>
                 <p>diagnoses and treatment of neurological problem.</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
-            <div class="box">
+            <div class="box"data-aos="fade-right">
                 
                 <i class="fas fa-duotone fa-stethoscope"></i>
                 <h3>HSG,CUG,IVP</h3>
                 <p>kidney,pla treatment.</p>
-                <a href="#services" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+                
             </div>
 
 
-            <div class="box">
+            <div class="box" data-aos="fade-left">
                 
                   
                 <i class="fas fa-duotone fa-stethoscope"></i>
@@ -189,6 +191,21 @@
     <section class="about" id="about">
 
         <h1 class="heading"> <span>about</span> us </h1>
+<div class="row">
+        <div class="row">
+<div class="map">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d617.0122001283922!2d38.78145302599718!3d9.013039445777071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85026ee08e67%3A0x7da1cd1ed14d5d28!2sMedstar%20Speciality%20Clinic!5e1!3m2!1sen!2snl!4v1687107030473!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+
+        <div class="myform">
+            <i class="fa-solid fa-location-dot" style="color: #17d6fd;"></i>
+        <h1 style="font-size: 30px;"><b>22 mazoriya</b> </h1> 
+        <vr>infront of water irrigation ministry / next to zerihun building</vr>
+            <p>tel : 011-635-42-80 / 0975-704070</p>
+        </div>
+        </div>
 
         <div class="row">
 
@@ -214,7 +231,7 @@
 
     <!-- doctors section starts  -->
 
-    <section class="doctors" id="doctors">
+    <section class="doctors" id="doctors" >
 
         <h1 class="heading"> our <span>doctors</span> </h1>
 
@@ -395,7 +412,7 @@
                 <img src="image/book-img.svg" alt="">
             </div>
 
-            <form id="myForm">
+            <form id="myForm" >
                 <h3>book appointment</h3>
                 <input type="text" placeholder="your name" class="box">
                 <input type="number" placeholder="your number" class="box">
@@ -412,9 +429,10 @@
 
     <!-- review section starts  -->
 
-    <section class="review" id="review">
+    <section class="review" id="review" >
 
-        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <h1 class="heading"> our <span>doctors</span> </h1>
 
 
         <div class="swiper-container review-slider">
@@ -422,69 +440,13 @@
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-1.png" alt="">
+                 <i class="fas fa-quote-right"></i>
+                   
+                 <div class="user">
+                    
+                        <img src="\image\Tamirat photo.jpeg" alt="">
                         <div class="user-info">
-                            <h3>Charlotte</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-2.png" alt="">
-                        <div class="user-info">
-                            <h3>William Mason</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-3.png" alt="">
-                        <div class="user-info">
-                            <h3>Amelia Nora</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-4.png" alt="">
-                        <div class="user-info">
-                            <h3>James Liam</h3>
+                            <h3>tamirat fereja</h3>
                             <div class="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -494,53 +456,260 @@
                             </div>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
+                    <p>specialized in webdevelopment at tamirat tech solution</p>
 
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-5.png" alt="">
-                        <div class="user-info">
-                            <h3>Victoria Adeline</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
+                 </div>
+
+                
+                 <div class="swiper-slide slide">
+                    <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                       <div class="user">
+                           <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                           <div class="user-info">
+                               <h3>Dr.Dawit Amare</h3>
+                               <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                               </div>
+                           </div>
+                       </div>
+                       <p>Internist</p>
+   
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
+<!--  -->
+<div class="swiper-slide slide">
+    <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+       <div class="user">
+           <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+           <div class="user-info">
+               <h3>Dr.Bethelhem Abreham</h3>
+               <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+               </div>
+           </div>
+       </div>
+       <p>Internist</p>
 
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="image/pic-6.png" alt="">
-                        <div class="user-info">
-                            <h3>Jack Mateo</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus
-                        aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis
-                        laborum aspernatur quibusdam. Ipsum, magni.</p>
-                </div>
+    </div>
+    <!--  -->
 
-            </div>
+    <div class="swiper-slide slide">
+        <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+           <div class="user">
+               <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+               <div class="user-info">
+                   <h3>Dr.Eyerusalem Yalew</h3>
+                   <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+               </div>
+           </div>
+           <p>Internist</p>
 
         </div>
+
+        <div class="swiper-slide slide">
+            <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+               <div class="user">
+                   <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                   <div class="user-info">
+                       <h3>Dr.Feyza Abdulkadr</h3>
+                       <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                       </div>
+                   </div>
+               </div>
+               <p>Internist</p>
+    
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                   <div class="user">
+                       <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                       <div class="user-info">
+                           <h3>Dr.Tsega Feleqe</h3>
+                           <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                           </div>
+                       </div>
+                   </div>
+                   <p>Internist</p>
+        
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                       <div class="user">
+                           <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                           <div class="user-info">
+                               <h3>Dr.Melaku Taye</h3>
+                               <div class="stars">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                               </div>
+                           </div>
+                       </div>
+                       <p>Endoctronologist</p>
+            
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                           <div class="user">
+                               <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                               <div class="user-info">
+                                   <h3>Dr.Rezene Berhe</h3>
+                                   <div class="stars">
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                       <i class="fas fa-star"></i>
+                                   </div>
+                               </div>
+                           </div>
+                           <p>Gastoentrologist,Heamatologist</p>
+                
+                        </div>
+                        <div class="swiper-slide slide">
+                            <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                               <div class="user">
+                                   <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                   <div class="user-info">
+                                       <h3>Dr.Abel Mulugeta</h3>
+                                       <div class="stars">
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                       </div>
+                                   </div>
+                               </div>
+                               <p>Neurologist</p>
+                    
+                            </div>
+                            <div class="swiper-slide slide">
+                                <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                                   <div class="user">
+                                       <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                       <div class="user-info">
+                                           <h3>Dr.Ybrah Gebremikael</h3>
+                                           <div class="stars">
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                               <i class="fas fa-star"></i>
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <p>Dermatologist</p>
+                        
+                                </div>
+
+                                <div class="swiper-slide slide">
+                                    <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                                       <div class="user">
+                                           <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                           <div class="user-info">
+                                               <h3>Dr.Dawit Mesfin</h3>
+                                               <div class="stars">
+                                                   <i class="fas fa-star"></i>
+                                                   <i class="fas fa-star"></i>
+                                                   <i class="fas fa-star"></i>
+                                                   <i class="fas fa-star"></i>
+                                                   <i class="fas fa-star"></i>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <p>Gynecologist</p>
+                            
+                                    </div>
+                                    <div class="swiper-slide slide">
+                                        <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                                           <div class="user">
+                                               <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                               <div class="user-info">
+                                                   <h3>Dr.Habtamu Aderaw</h3>
+                                                   <div class="stars">
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                       <i class="fas fa-star"></i>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <p>Urologist</p>
+                                
+                                        </div>
+                                        <div class="swiper-slide slide">
+                                            <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                                               <div class="user">
+                                                   <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                                   <div class="user-info">
+                                                       <h3>Dr.Meron Tadese</h3>
+                                                       <div class="stars">
+                                                           <i class="fas fa-star"></i>
+                                                           <i class="fas fa-star"></i>
+                                                           <i class="fas fa-star"></i>
+                                                           <i class="fas fa-star"></i>
+                                                           <i class="fas fa-star"></i>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <p>Psychologist</p>
+                                    
+                                            </div>
+                                            <div class="swiper-slide slide">
+                                                <i class="fa-solid fa-badge-check" style="color: #0c81ed;"></i>
+                                                   <div class="user">
+                                                       <img src="\image\Gear-Alienware-M15-R2-src-Dell.webp" alt="">
+                                                       <div class="user-info">
+                                                           <h3>Dr.Tseyon Betemaryam</h3>
+                                                           <div class="stars">
+                                                               <i class="fas fa-star"></i>
+                                                               <i class="fas fa-star"></i>
+                                                               <i class="fas fa-star"></i>
+                                                               <i class="fas fa-star"></i>
+                                                               <i class="fas fa-star"></i>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                   <p>Pathologist</p>
+                                        
+                                                </div>
+                                               
+                                                                                    
+
+
+
+
+
+
+
+            </div>
 
     </section>
 
@@ -617,7 +786,7 @@
 
         <div class="box-container">
 
-            <div class="box">
+            <!-- <div class="box">
                 <h3>quick links</h3>
                 <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
                 <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
@@ -626,9 +795,9 @@
                 <a href="#book"> <i class="fas fa-chevron-right"></i> book </a>
                 <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
                 <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
-            </div>
+            </div> -->
 
-            <div class="box">
+            <!-- <div class="box">
                 <h3>our blogs</h3>
                 <a href="https://health.clevelandclinic.org/"> <i class="fas fa-chevron-right"></i> HEALTH
                     ESSENTIALS</a>
@@ -641,7 +810,7 @@
                 </a>
                 <a href="https://lifeinthefastlane.com/"> <i class="fas fa-chevron-right"></i> LIFE IN THE FAST LANE
                 </a>
-            </div>
+            </div> -->
 
             <div class="box">
                 <h3>contact info</h3>
@@ -662,7 +831,7 @@
 
         </div>
 
-        <div class="credit"> created by <span>TAMIRAT </span> | all rights reserved </div>
+        <div class="credit"> created by <span> <a href="https://t.me/Tamirat_NE"> TAMIRAT </a></span> | all rights reserved </div>
 
     </section>
 
@@ -715,9 +884,39 @@
                     )
                 }
             })
+
+            // fade
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6484498394cf5d49dc5cdb9a/1h2ibubat';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+
         }
     </script>
 
 </body>
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  // AOS.init();
+  AOS.init({
+    delay: 200, // values from 0 to 3000, with step 50ms
+    duration: 1500, // values from 0 to 3000, with step 50ms
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
+<!-- Navigation Script -->
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+  </script>
 
 </html>
